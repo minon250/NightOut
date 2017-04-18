@@ -9,13 +9,20 @@
 import UIKit
 
 class RoundedButtons: UIButton {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // This always sets the width to 1px
+        layer.borderWidth = 1/UIScreen.main.nativeScale
+        layer.borderColor = UIColor.brown.cgColor
+        contentEdgeInsets = UIEdgeInsets(top: 10, left: 16, bottom: 10, right: 16)
+        
     }
-    */
+    
+    override func layoutSubviews() {
+        // This function takes care of making the edges of the button smooth and curved
+        super.layoutSubviews()
+        layer.cornerRadius = frame.height/2
+    }
+    
 
 }

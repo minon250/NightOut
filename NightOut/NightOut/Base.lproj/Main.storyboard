@@ -1,26 +1,127 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jWa-iw-eqg">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Item 2-->
+        <scene sceneID="fqx-G2-UOM">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="QSD-Ol-f5r" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="BBP-mQ-xfT"/>
+                        <viewControllerLayoutGuide type="bottom" id="8mm-Cy-7kJ"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="joy-pq-LKv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="fKt-6F-YHb"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hox-wG-d7n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="750" y="-94"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HVe-KJ-Y4i">
+            <objects>
+                <viewController id="Bc6-ak-6IJ" customClass="ViewController" customModule="NightOut" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xqx-x9-NcM"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Yc-A9-3pV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFit" id="cf6-fQ-3Qq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="17974397_10210540150874650_221593407_n" translatesAutoresizingMaskIntoConstraints="NO" id="ub2-4f-NMA">
+                                <rect key="frame" x="0.0" y="27" width="375" height="235"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="7xd-DL-fpn">
+                                <rect key="frame" x="0.0" y="262" width="375" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zig-jd-3g0" customClass="RoundedButtons" customModule="NightOut" customModuleProvider="target">
+                                <rect key="frame" x="85" y="347" width="205" height="36"/>
+                                <color key="backgroundColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="0.72641871165644167" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <state key="normal" title="Bar">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E7j-VH-r7b" customClass="RoundedButtons" customModule="NightOut" customModuleProvider="target">
+                                <rect key="frame" x="85" y="419" width="205" height="36"/>
+                                <color key="backgroundColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="0.72641871165644167" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <state key="normal" title="Club">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdr-wq-34L" customClass="RoundedButtons" customModule="NightOut" customModuleProvider="target">
+                                <rect key="frame" x="85" y="491" width="205" height="36"/>
+                                <color key="backgroundColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="0.72641871165644167" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <state key="normal" title="Pub">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2Yc-A9-3pV" firstAttribute="top" secondItem="E7j-VH-r7b" secondAttribute="bottom" constant="163" id="3km-mm-haQ"/>
+                            <constraint firstItem="E7j-VH-r7b" firstAttribute="leading" secondItem="Zig-jd-3g0" secondAttribute="leading" id="6CY-IQ-mAk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="E7j-VH-r7b" secondAttribute="trailing" constant="69" id="NZM-Co-C8E"/>
+                            <constraint firstItem="2Yc-A9-3pV" firstAttribute="top" secondItem="kdr-wq-34L" secondAttribute="bottom" constant="91" id="NrG-Pw-KZo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Zig-jd-3g0" secondAttribute="trailing" constant="69" id="OBH-2f-CTr"/>
+                            <constraint firstItem="E7j-VH-r7b" firstAttribute="leading" secondItem="cf6-fQ-3Qq" secondAttribute="leadingMargin" constant="69" id="Pf8-E8-ImQ"/>
+                            <constraint firstItem="kdr-wq-34L" firstAttribute="leading" secondItem="cf6-fQ-3Qq" secondAttribute="leadingMargin" constant="69" id="SGJ-u2-qaW"/>
+                            <constraint firstItem="ub2-4f-NMA" firstAttribute="leading" secondItem="cf6-fQ-3Qq" secondAttribute="leadingMargin" constant="-16" id="Yih-rb-ga5"/>
+                            <constraint firstItem="ub2-4f-NMA" firstAttribute="top" secondItem="xqx-x9-NcM" secondAttribute="bottom" constant="7" id="a9v-EN-ckI"/>
+                            <constraint firstItem="7xd-DL-fpn" firstAttribute="trailing" secondItem="ub2-4f-NMA" secondAttribute="trailing" id="dvB-Ve-3ax"/>
+                            <constraint firstItem="Zig-jd-3g0" firstAttribute="top" secondItem="7xd-DL-fpn" secondAttribute="bottom" constant="41" id="eiA-oF-1iz"/>
+                            <constraint firstItem="Zig-jd-3g0" firstAttribute="leading" secondItem="7xd-DL-fpn" secondAttribute="leading" constant="85" id="iqs-n1-Q4V"/>
+                            <constraint firstItem="7xd-DL-fpn" firstAttribute="top" secondItem="ub2-4f-NMA" secondAttribute="bottom" id="nnO-wB-Kug"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ub2-4f-NMA" secondAttribute="trailing" constant="-16" id="r2b-7y-QOc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kdr-wq-34L" secondAttribute="trailing" constant="69" id="vjH-54-47r"/>
+                            <constraint firstItem="7xd-DL-fpn" firstAttribute="leading" secondItem="ub2-4f-NMA" secondAttribute="leading" id="x9r-rW-krL"/>
+                            <constraint firstItem="2Yc-A9-3pV" firstAttribute="top" secondItem="ub2-4f-NMA" secondAttribute="bottom" constant="356" id="z2S-4t-dmC"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" image="house-7" id="V7u-fY-orB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vpq-Yc-V5l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.60000000000002" y="-749.7751124437782"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="8Fe-0k-HcV">
+            <objects>
+                <tabBarController id="jWa-iw-eqg" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="w2v-lP-lyX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Bc6-ak-6IJ" kind="relationship" relationship="viewControllers" id="Ssj-hf-LwP"/>
+                        <segue destination="QSD-Ol-f5r" kind="relationship" relationship="viewControllers" id="MeQ-Rt-EOl"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SOC-u8-kci" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-202" y="-421"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="17974397_10210540150874650_221593407_n" width="600" height="400"/>
+        <image name="house-7" width="30" height="30"/>
+    </resources>
 </document>
